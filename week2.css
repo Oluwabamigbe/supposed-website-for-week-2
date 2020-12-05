@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background: black;
+    text-align: center;
+    overflow-x: hidden;
+}
+main{
+    background: rgb(248, 238, 220);
+    margin: 0;
+}
+
+h1{
+    background:black;
+    color:snow;
+    text-align:center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    height: 100vh;
+    width: auto;
+}
+
+p{
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.image{
+    position: relative;
+    text-align: center;
+}
+
+
+h4{
+    border-top: solid 3px ;
+    border-bottom: solid 3px ;
+    background: tan;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+form{
+   text-align: center;
+   margin-top: 5px;
+  
+}
+
+label.message{
+    position: relative;
+    right: 198px;
+}
+
+label{
+    position: relative;
+    right: 210px;
+}
+
+input{
+    width: 500px;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+button{
+    padding: 10px;
+    color: snow;
+    font-size: 17px;
+    width: 100px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    background: rgb(10, 9, 1);
+    position: relative;
+    left:200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+button:hover{
+    background: slateblue;
+}
+
+footer{
+    text-align: center;
+    border-top: black solid 3px;
+}
+
+
+@media (max-width:700px){
+
+    body{
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    img{
+        height: 70vh;
+    }
+
+    label.message{
+        position: relative;
+        right: 148px;
+    }
+   
+     
+     label{
+        position: relative;
+        right: 160px;
+     }
+     
+     input{
+         width: 400px;
+         padding: 13px;
+         border-radius: 10px;
+         outline: none;
+     }
+
+    button{
+        left: 150px;
+    }
+}
